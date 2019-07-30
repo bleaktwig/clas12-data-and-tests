@@ -1,28 +1,37 @@
 # METRO PALETTE
 ### Colors:
-    c_red     = ["#e6194b", "#800000", "#fabebe"]
-    c_orange  = ["#f58231", "#9a6324", "#ffd8b1"]
-    c_yellow  = ["#ffe119", "#808000", "#fffac8"]
-    c_lime    = ["#bfef45"]
-    c_green   = ["#3cb44b",            "#aaffc3"]
-    c_cyan    = ["#42d4f4", "#469990"]
-    c_blue    = ["#4363d8", "#000075"]
-    c_purple  = ["#911eb4",            "#e6beff"]
-    c_magenta = ["#f032e6"]
-    c_gray    = ["#a9a9a9", "#000000", "#ffffff"]
+c_red = "#e6194b" # red
+c_gre = "#3cb44b" # green
+c_yel = "#ffe119" # yellow
+c_blu = "#4363d8" # blue
+c_ora = "#f58231" # orange
+c_pur = "#911eb4" # purple
+c_cya = "#42d4f4" # cyan
+c_mag = "#f032e6" # magenta
+c_lim = "#bfef45" # lime
+c_pin = "#fabebe" # pink
+c_tea = "#469990" # teal
+c_lav = "#e6beff" # lavender
+c_bro = "#9A6324" # brown
+c_bei = "#fffac8" # beige
+c_mar = "#800000" # maroon
+c_min = "#aaffc3" # mint
+c_oli = "#808000" # olive
+c_apr = "#ffd8b1" # apricot
+c_nav = "#000075" # navy
+c_gra = "#a9a9a9" # gray
+c_whi = "#ffffff" # white
+c_bla = "#000000" # black
 
-### Palettes:
-    accessibility_95    = [c_red[0],     c_green[0],   c_blue[0],    c_yellow[0],  c_orange[0],
-                           c_purple[0],  c_cyan[0],    c_magenta[0], c_lime[0],    c_red[2],
-                           c_cyan[1],    c_purple[1],  c_orange[1],  c_yellow[2],  c_red[1],
-                           c_green[1],   c_yellow[1],  c_orange[2],  c_blue[1],    c_gray[0],
-                           c_gray[1]]
-    accessibility_99    = [c_red[0],     c_green[0],   c_blue[0],    c_yellow[0],  c_orange[0],
-                           c_cyan[0],    c_magenta[0], c_red[2],     c_cyan[1],    c_purple[1],  
-                           c_orange[1],  c_yellow[2],  c_red[1],     c_green[1],   c_blue[1],    
-                           c_gray[0],    c_gray[1]]
-    accessibility_99_99 = [c_blue[0],    c_yellow[0],  c_orange[0],  c_red[2],     c_purple[1],  
-                           c_red[1],     c_blue[1],    c_gray[0],    c_gray[1]]
-    accessibility_100   = [c_blue[0],    c_yellow[0],  c_gray[0],    c_gray[1]]
+### Accessibility Palettes:
+accessibility_95    = [c_red, c_gre, c_blu, c_yel, c_ora, c_pur, c_cya,
+                       c_mag, c_lim, c_pin, c_tea, c_lav, c_bro, c_bei,
+                       c_mar, c_min, c_oli, c_apr, c_nav, c_gra, c_bla]
+accessibility_99    = [c_red, c_gre, c_blu, c_yel, c_ora, c_cya, c_mag,
+                       c_pin, c_tea, c_lav, c_bro, c_bei, c_mar, c_min,
+                       c_nav, c_gra, c_bla]
+accessibility_99_99 = [c_blu, c_yel, c_ora, c_pin, c_lav, c_mar, c_nav,
+                       c_gra, c_bla]
+accessibility_100   = [c_blu, c_yel, c_gra, c_bla]
 
 Based on [**Sasha Trubetskoy**](https://sashat.me/2017/01/11/list-of-20-simple-distinct-colors/)
