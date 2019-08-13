@@ -4,10 +4,11 @@ import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib
 import matplotlib.pyplot as plt
-import ipywidgets as widgets
+from ipywidgets import interact
 
 np.set_printoptions(formatter={'float': '{: 0.5f}'.format}, suppress = True)
 matplotlib.rcParams.update({'font.size': 16})
+plt.style.use('seaborn-whitegrid')
 
 # ==- PLOT PARAMETERS -=============================================================================
 loglogalpha = 0.70
